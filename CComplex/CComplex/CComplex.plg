@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CComplex - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\manasip\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/CComplex.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\ASSIGNMENTS 15-07-2010\C++ Assg\Lab4\CComplex\Client.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\manasip\LOCALS~1\Temp\RSPA.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Client.cpp
+Z:\ASSIGNMENTS 15-07-2010\C++ Assg\Lab4\CComplex\Client.cpp(10) : error C2373: 'C4' : redefinition; different type modifiers
+        Z:\ASSIGNMENTS 15-07-2010\C++ Assg\Lab4\CComplex\Client.cpp(8) : see declaration of 'C4'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Client.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
