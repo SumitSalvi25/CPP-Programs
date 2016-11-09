@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: newrtti - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\pmanasi\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/newrtti.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\C++ Assg\newrtti\CDate.cpp"
+"Z:\C++ Assg\newrtti\CEmployee.cpp"
+"Z:\C++ Assg\newrtti\CManager.cpp"
+"Z:\C++ Assg\newrtti\CSalesPerson.cpp"
+"Z:\C++ Assg\newrtti\CString.cpp"
+"Z:\C++ Assg\newrtti\CWageEmployee.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\pmanasi\LOCALS~1\Temp\RSP1A.tmp" 
+Creating temporary file "C:\DOCUME~1\pmanasi\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/newrtti.pdb" /debug /machine:I386 /out:"Debug/newrtti.exe" /pdbtype:sept 
+".\Debug\CDate.obj"
+".\Debug\CEmployee.obj"
+".\Debug\Client.obj"
+".\Debug\CManager.obj"
+".\Debug\CSalesPerson.obj"
+".\Debug\CString.obj"
+".\Debug\CWageEmployee.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\pmanasi\LOCALS~1\Temp\RSP1B.tmp"
+<h3>Output Window</h3>
+Compiling...
+CDate.cpp
+CEmployee.cpp
+CManager.cpp
+CSalesPerson.cpp
+CString.cpp
+CWageEmployee.cpp
+Linking...
+LINK : fatal error LNK1000: unknown error; consult documentation for technical support options
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+newrtti.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
